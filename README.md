@@ -15,8 +15,8 @@ allprojects {
 }
 ```
 ```gradle
-implementation 'com.github.edgar-zigis.objdiffy:annotations:1.0.0'
-kapt 'com.github.edgar-zigis.objdiffy:processor:1.0.0'
+implementation 'com.github.edgar-zigis.ObjDiffy:annotations:1.0.1'
+kapt 'com.github.edgar-zigis.ObjDiffy:processor:1.0.1'
 ```
 
 ## Usage
