@@ -1,4 +1,4 @@
-# ObjDiffy [![](https://jitpack.io/v/edgar-zigis/objdiffy.svg)](https://jitpack.io/#edgar-zigis/objdiffy)
+# ObjDiffy [![](https://jitpack.io/v/edgar-zigis/ObjDiffy.svg)](https://jitpack.io/#edgar-zigis/ObjDiffy)
 KSP object diff generator which can be used for Redux purposes.
 
 ## Credits
