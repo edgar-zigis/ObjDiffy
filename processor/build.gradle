@@ -3,6 +3,16 @@ plugins {
     id 'com.google.devtools.ksp' version '2.2.0-2.0.2'
 }
 
+group = 'com.github.edgar-zigis'
+version = "1.0.1"
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
 kotlin {
     jvmToolchain(21)
 }
