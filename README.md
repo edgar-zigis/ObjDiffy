@@ -1,10 +1,10 @@
 # ObjDiffy [![](https://jitpack.io/v/edgar-zigis/objdiffy.svg)](https://jitpack.io/#edgar-zigis/objdiffy)
 KSP object diff generator which can be used for Redux purposes.
 
-### Credits
-The library is based on the KAPT project which can be found here https://play.google.com/store/apps/details?id=com.zigis.paleontologas
+## Credits
+The initial author of the KAPT based version is ***Lukas Sivickas*** and the library can be found [here](https://github.com/luksiv/entdiffy).
 
-### Gradle
+## Gradle
 Make sure you have **Jitpack.IO** included in your gradle repositories.
 
 ```gradle
@@ -19,7 +19,7 @@ implementation 'com.github.edgar-zigis.objdiffy:annotations:1.0.0'
 kapt 'com.github.edgar-zigis.objdiffy:processor:1.0.0'
 ```
 
-### Usage
+## Usage
 To start using the library add the annotation `@DiffEntity` to your entity, for example:
 ```
 @DiffEntity
